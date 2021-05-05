@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: arial;
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px 5px;
+    font-size: 20px;
+}
+a:hover{
+    background-color: white;
+    color: black;
+}
+ul{
+    list-style: none;
+    top: 90px;
+    position: absolute;
+    width: 100%;
+}
+input[type="checkbox"]{
+    display: none;
+}
+input[type="checkbox"]:checked ~ nav{
+    transform: translateX(190px);
+}
+nav{
+    background-color: red;
+    width: 260px;
+    left: -190px;
+    height: 968px;
+    position: absolute;
+}
+label{
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+#img_menu{
+    margin-left: -10px;
+}
+.img_menus{
+    margin-right: 10px;
+    float: right;
+    margin-top: -10px;
+}
+.img_menus1{
+    margin-right: 10px;
+    float: right;
+    margin-top: 5px;
+}
+#but_login_menu{
+    margin-top: 30px;
+    margin-left: 70px;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+#but_login_menu:hover{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    transform: scale(1.2);
+}
+#a_but_login{
+    background-color: red;
+}
+
