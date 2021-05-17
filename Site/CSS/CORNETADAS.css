@@ -2,6 +2,9 @@ body{
     margin: 0;
     padding: 0;
     font-family: arial;
+    background-image: url(https://www.dwrk.it/wp-content/uploads/2019/06/concepts_SPFC_0001_Layer-Comp-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 970px;
 }
 /* Começo do MENU */
  a{
@@ -19,7 +22,7 @@ ul{
     list-style: none;
     top: 90px;
     position: absolute;
-    width: 100%;
+    width: 220px;
 }
 li{
     width: 220px;
@@ -91,7 +94,20 @@ label{
 /* Fim MENU */
 
 /* Começo PAG */
-
+.tt{
+    margin-top: -880px;
+    margin-left: 500px;
+    overflow-y: scroll;
+    height: 800px;
+    width: 600px;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+}
+#span_tt{
+    text-align: center;
+    font-size: 30px;
+}
 /* Fim PAG */
 
 /* Inicio do Footer */

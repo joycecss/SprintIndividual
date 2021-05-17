@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: arial;
-    background-image: url(https://besthqwallpapers.com/img/original/70847/hernanes-back-view-sao-paulo-fc-brazilian-footballers-soccer.jpg); 
+    background-image: url(https://images.daznservices.com/di/library/GOAL/55/19/luciano-sao-paulo_1vfovcmod5al412bs7iet9zflv.jpg?t=2097738196&quality=100); 
     background-repeat: no-repeat;
     background-size: 100% 970px;   
 }
@@ -22,7 +22,7 @@ ul{
     list-style: none;
     top: 90px;
     position: absolute;
-    width: 100%;
+    width: 220px;
 }
 li{
     width: 220px;
@@ -222,7 +222,8 @@ label{
     margin-top: 10px;
 }
 .faixa2{
-    background-color: rgb(43, 41, 41);
+    /* background-color: rgb(43, 41, 41); */
+    background-image: url(https://www.dwrk.it/wp-content/uploads/2019/06/concepts_SPFC_0021_Layer-Comp-22.jpg);
     width: 100%;
     height: 600px;
     margin-top: 100px;
@@ -275,6 +276,9 @@ label{
 #h2_gols{
     color: white;
     text-align: center;
+    background-color: red;
+    border-radius: 30px;
+    border: solid rgba(255, 217, 0, 0.699);
 }
 /* Inicio do Footer */
 footer{

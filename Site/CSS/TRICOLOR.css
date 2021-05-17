@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: arial;
+    background-color: whitesmoke;
 }
 /* Começo do MENU */
  a{
@@ -91,11 +92,109 @@ label{
 /* Fim MENU */
 
 /* Começo PAG */
-
+.containerpag{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -970px;
+    width: 1800px;
+    height: 999px;
+}
+.preto{
+    margin-left: 50px;
+    width: 10px;
+    height: 100%;
+    background-color: black;
+    float: left;
+}
+.vermelho{
+    margin-right: 1700px;
+    width: 10px;
+    height: 95%;
+    background-color: red;
+    float: right;
+}
+.valores{
+    width: 1500px;
+    height: 999px;
+    /* border:solid red; */
+    margin-left: 100px;
+    /* text-align: center; */
+}
+#span_titulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin-left: -150px;
+}
+.leal{
+    text-align: center;
+    /* border: solid blue; */
+    margin-top: 150px;
+}
+.resp{
+    text-align: center;
+    /* border: solid blue; */
+    margin-top: 100px;
+}
+.compre{
+    text-align: center;
+    /* border: solid blue; */
+    margin-top: 100px;
+}
+.spfc{
+    float: left;
+    width: 685px;
+    height: 899px;
+    margin-top: 90px;
+    /* border: solid blue; */
+}
+.img{
+    float: right;
+    width: 100px;
+    height: 899px;
+    margin-right: 702px;
+}
+.eu{
+    float: right;
+    width: 700px;
+    height: 909px;
+    margin-top: -909px;
+    /* border: solid red; */
+}
+.spfcleal{
+    text-align: center;
+    /* border: solid red; */
+    margin-top: 200px;
+}
+.spfcresp{
+    text-align: center;
+    /* border: solid red; */
+    margin-top: 200px;
+}
+.spfcompre{
+    text-align: center;
+    /* border: solid red; */
+    margin-top: 200px;
+}
+.euleal{
+    text-align: center;
+    /* border: solid red; */
+    margin-top: 220px;
+}
+.euresp{
+    text-align: center;
+    /* border: solid red; */
+    margin-top: 200px;
+}
+.eucompre{
+    text-align: center;
+    /* border: solid red; */
+    margin-top: 200px;
+}
 /* Fim PAG */
 
 /* Inicio do Footer */
 footer{
+    margin-top: -100px;
     width: 100%;
     background-color: black;
     height: 400px;
