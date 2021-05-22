@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: arial;
+    background-image: url(https://passaportefc.com/wp-content/uploads/2020/04/38addef9-eb74-400e-933e-40c39f273d5c.jpg);
 }
 /* Começo do MENU */
  a{
@@ -91,7 +92,66 @@ label{
 /* Fim MENU */
 
 /* Começo PAG */
-
+.foto1{
+    margin-top: -800px;
+    float: left;
+    margin-left: -50px;
+}
+.foto2{
+    margin-top: -800px;
+    float: left;
+    margin-left: 250px;
+}
+.foto3{
+    margin-top: -800px;
+    float: left;
+    margin-left: 550px;
+}
+.foto4{
+    margin-top: -800px;
+    float: left;
+    margin-left: 850px;
+}
+.foto5{
+    margin-top: -800px;
+    float: left;
+    margin-left: 1150px;
+}
+.foto6{
+    margin-top: -800px;
+    float: left;
+    margin-left: 1450px;
+}
+.foto7{
+    margin-top: -450px;
+    float: left;
+    margin-left: -50px;
+}
+.foto8{
+    margin-top: -450px;
+    float: left;
+    margin-left: 250px;
+}
+.foto9{
+    margin-top: -450px;
+    float: left;
+    margin-left: 550px;
+}
+.foto10{
+    margin-top: -450px;
+    float: left;
+    margin-left: 850px;
+}
+.foto11{
+    margin-top: -450px;
+    float: left;
+    margin-left: 1150px;
+}
+.foto12{
+    margin-top: -450px;
+    float: left;
+    margin-left: 1450px;
+}
 /* Fim PAG */
 
 /* Inicio do Footer */

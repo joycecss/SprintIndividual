@@ -109,14 +109,14 @@ label{
     color: red;
     font-size: 25px;
     float: right;
-    margin-right: 220px;
+    margin-right: 420px;
     margin-top: 100px;
 }
 #sub_tt{
     color: gray;
     font-size: 15px;
     float: right;
-    margin-right: 665px;
+    margin-right: 452px;
 }
 .not1{
     border-bottom: solid red;
@@ -129,14 +129,14 @@ label{
     color: red;
     font-size: 25px;
     float: right;
-    margin-right: 220px;
+    margin-right: 570px;
     margin-top: 100px;
 }
 #sub_tt1{
     color: gray;
     font-size: 15px;
     float: right;
-    margin-right: 655px;
+    margin-right: 473px;
 }
 .not3{
     margin-top: 270px;
@@ -146,14 +146,14 @@ label{
     color: red;
     font-size: 25px;
     float: right;
-    margin-right: 140px;
+    margin-right: 200px;
     margin-top: 100px;
 }
 #sub_tt2{
     color: gray;
     font-size: 15px;
     float: right;
-    margin-right: 575px;
+    margin-right: 583px;
 }
 .not4{
     margin-top: 270px;
@@ -163,14 +163,14 @@ label{
     color: red;
     font-size: 25px;
     float: right;
-    margin-right: 175px;
+    margin-right: 248px;
     margin-top: 100px;
 }
 #sub_tt3{
     color: gray;
     font-size: 15px;
     float: right;
-    margin-right: 670px;
+    margin-right: 620px;
 }
 .not5{
     margin-top: 270px;
@@ -180,37 +180,19 @@ label{
     color: red;
     font-size: 25px;
     float: right;
-    margin-right: 300px;
+    margin-right: 672px;
     margin-top: 100px;
 }
 #sub_tt4{
     color: gray;
     font-size: 15px;
     float: right;
-    margin-right: 605px;
+    margin-right: 730px;
 }
 .not6{
     margin-top: 270px;
     border-bottom: solid red;
 }
-/* 
-.not7{
-    margin-top: 200px;
-    border-bottom: solid red;
-}
-.not8{
-    margin-top: 200px;
-    border-bottom: solid red;
-}
-.not9{
-    margin-top: 200px;
-    border-bottom: solid red;
-}
-.not10{
-    margin-top: 200px;
-    border-bottom: solid red;
-}
- */
 /* Fim PAG */
 
 /* Inicio do Footer */
