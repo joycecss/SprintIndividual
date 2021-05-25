@@ -36,11 +36,11 @@
             <span>      .   </span> <br><br>
            <span id="tt"> Cadastre-se: </span>
            <br><br>
-            <form>
+            <form id="form_cadastro" method="post" onsubmit="return cadastrar()">
                 <span id="span_form">Nome:</span>
                 <input type="text" id="name" name="name"><br><br>
                 <span id="span_form">Email:</span>
-                <input type="text" id="email" name="email"> <br><br>
+                <input type="text" id="login" name="login"> <br><br>
                 <span id="span_form">Senha:</span>
                 <input type="password" id="senha" name="senha"> <br><br>
                 <span id="span_form">Data de Nascimento:</span>
@@ -56,6 +56,8 @@
                 <input type="radio"> <br>
                 <span id="span_form">Não</span>
                 <input type="radio">
+                <br><br>
+                <input type="submit" id="btn_entrar" value="Cadastrar" class="btn-green">
             </form>
             <br><br>
             <span id="span_redes"> Cadastre-se também por: </span><br> <br>
@@ -74,3 +76,43 @@
 </body>
 </html>
 <script data-jsd-embedded data-key="e650e3e6-18c8-4f5f-b1db-2dbe085ca764" data-base-url="https://jsd-widget.atlassian.com" src="https://jsd-widget.atlassian.com/assets/embed.js"></script>
+<script>
+
+    function cadastrar() {
+        aguardar();
+        var formulario = new URLSearchParams(new FormData(form_cadastro));
+        fetch("/usuarios/cadastrar", {
+            method: "POST",
+            body: formulario
+        }).then(function (response) {
+            
+            if (response.ok) {
+
+                window.location.href='LOGIN.html';
+
+            } else {
+
+                console.log('Erro de cadastro!');
+                response.text().then(function (resposta) {
+                    div_erro.innerHTML = resposta;
+                });
+                finalizar_aguardar();
+            }
+        });
+
+        return false;
+    }
+
+    function aguardar() {
+        btn_entrar.disabled = true;
+        img_aguarde.style.display='block';
+        div_erro.style.display='none';
+    }
+
+    function finalizar_aguardar() {
+        btn_entrar.disabled = false;
+        img_aguarde.style.display='none';
+        div_erro.style.display='block';
+    }
+
+</script>

@@ -1,0 +1,301 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+/* Começo do MENU */
+ a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px 5px;
+    font-size: 20px;
+}
+a:hover{
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+ul{
+    list-style: none;
+    top: 90px;
+    position: absolute;
+    width: 100%;
+}
+li{
+    width: 250px;
+    margin-left: -40px;
+    
+}
+input[type="checkbox"]{
+    display: none;
+}
+input[type="checkbox"]:checked ~ nav{
+    transform: translateX(190px);
+}
+nav{
+    background-color: red;
+    width: 260px;
+    margin-left: -190px;
+    height: 968px;
+}
+label{
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+#img_menu{
+    margin-left: 5px;
+}
+.img_menus{
+    margin-right: -3px;
+    float: right;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+.img_menus1{
+    margin-right: -3px;
+    float: right;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#but_login_menu{
+    margin-top: 30px;
+    margin-left: 80px;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+#but_login_menu:hover{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    transform: scale(1.2);
+}
+#a_but_login{
+    background-color: red;
+}
+#logo{
+    float: left;
+    height: 120px;
+    position: absolute;
+    margin-left: 1780px;
+    margin-top: -950px;
+}
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* Fim MENU */
+
+/* Começo PAG */
+.ge{
+    margin-top: -950px;
+    /* margin-bottom: 2700px; */
+}
+#tt_ge{
+    font-size: 50px;
+    color: black;
+}
+#capa1{
+    margin-top: 50px;
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+#tt{
+    color: red;
+    font-size: 25px;
+    float: right;
+    margin-right: 60px;
+    margin-top: 100px;
+}
+#sub_tt{
+    color: gray;
+    font-size: 15px;
+    float: right;
+    margin-right: 595px;
+}
+.not1{
+    border-bottom: solid red;
+}
+.not2{
+    margin-top: 240px;
+    border-bottom: solid red;
+}
+#tt1{
+    color: red;
+    font-size: 25px;
+    float: right;
+    margin-right: 73px;
+    margin-top: 100px;
+}
+#sub_tt1{
+    color: gray;
+    font-size: 15px;
+    float: right;
+    margin-right: 460px;
+}
+.not3{
+    margin-top: 270px;
+    border-bottom: solid red;
+}
+#tt2{
+    color: red;
+    font-size: 25px;
+    float: right;
+    margin-right: 250px;
+    margin-top: 100px;
+}
+#sub_tt2{
+    color: gray;
+    font-size: 15px;
+    float: right;
+    margin-right: 420px;
+}
+.not4{
+    margin-top: 270px;
+    border-bottom: solid red;
+}
+#tt3{
+    color: red;
+    font-size: 25px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+#sub_tt3{
+    color: gray;
+    font-size: 15px;
+    float: right;
+    margin-right: 535px;
+}
+.not5{
+    margin-top: 270px;
+    border-bottom: solid red;
+}
+#tt4{
+    color: red;
+    font-size: 25px;
+    float: right;
+    margin-right: 172px;
+    margin-top: 100px;
+}
+#sub_tt4{
+    color: gray;
+    font-size: 15px;
+    float: right;
+    margin-right: 425px;
+}
+.not6{
+    margin-top: 270px;
+    border-bottom: solid red;
+}
+/* Fim PAG */
+
+/* Inicio do Footer */
+footer{
+    width: 100%;
+    background-color: black;
+    height: 400px;
+}
+.inputs{
+    width: 500px;
+    height: 290px;
+    
+}
+#h3_inp{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+#tel{
+    background-color: white;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;
+    float: left;
+}
+#email{
+    background-color: white;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin-left: -50px;
+    margin-top: 150px;
+    text-align: center;
+    float: left;
+}
+#img_end{
+    margin-top: 8px;
+}
+#inp1{
+    float: right;
+    margin-top: 60px;
+    margin-right: 200px;
+    color: white;
+    width: 150px;
+}
+#inp2{
+    float: right;
+    margin-top: 90px;
+    margin-right: 260px;
+    color: white;
+    width: 100px;
+}
+.final{
+    color: white;
+    border-top: solid white;
+    margin-top: 50px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.rede{
+    float: right;
+}
+.grupo{
+    width: 800px;
+    height: 300px;
+    float: right;
+    margin-top: -260px;
+}
+#h2_grupo{
+    color: white;
+    text-align: center;
+}
+#inp_grupo{
+    padding-top: 10px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    float: left;
+    width: 400px;
+    border: none;
+}
+#but_grupo{
+    width: 100px;
+    height: 30px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 150px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+#but_grupo:hover{
+    background-color: red;
+    color: white;
+    transform: scale(1.1);
+}
+#h5_grupo{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}

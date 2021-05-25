@@ -36,9 +36,9 @@
             <span> .  </span>
             <br><br>
             <span id="login">Login</span>
-            <form id="form" action="">
+            <form id="form_login" method="post" onsubmit="return entrar()">
                 <span id="email"> Email: </span>
-                <input type="e-mail" name="email" id="inp_email" placeholder="Digite seu e-mail"> <br>
+                <input type="e-mail" name="login" id="inp_email" placeholder="Digite seu e-mail"> <br>
                 <span id="senha"> Senha: </span>
                 <input type="password" name="senha" id="inp_senha" placeholder="Digite sua Senha">
                 <br>
@@ -60,3 +60,51 @@
 </body>
 </html>
 <script data-jsd-embedded data-key="e650e3e6-18c8-4f5f-b1db-2dbe085ca764" data-base-url="https://jsd-widget.atlassian.com" src="https://jsd-widget.atlassian.com/assets/embed.js"></script>
+<script>
+
+    function entrar() {
+        aguardar();
+        var formulario = new URLSearchParams(new FormData(form_login));
+        fetch("/usuarios/autenticar", {
+            method: "POST",
+            body: formulario
+        }).then(resposta => {
+
+            if (resposta.ok) {
+
+                resposta.json().then(json => {
+
+                    sessionStorage.login_usuario_meuapp = json.login;
+                    sessionStorage.nome_usuario_meuapp = json.nome;
+
+                    window.location.href = 'tempo-real.html';
+                });
+
+            } else {
+
+                console.log('Erro de login!');
+
+                resposta.text().then(texto => {
+                    console.error(texto);
+                    finalizar_aguardar(texto);
+                });
+            }
+        });
+
+        return false;
+    }
+
+    function aguardar() {
+        btn_entrar.disabled = true;
+        img_aguarde.style.visibility = 'visible';
+        div_erro.style.visibility = 'hidden';
+    }
+
+    function finalizar_aguardar(resposta) {
+        btn_entrar.disabled = false;
+        img_aguarde.style.visibility = 'hidden';
+        div_erro.style.visibility = 'visible';
+        div_erro.innerHTML = resposta;
+    }
+
+</script>

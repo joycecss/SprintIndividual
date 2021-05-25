@@ -1,0 +1,430 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+/* Começo do MENU */
+ a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px 5px;
+    font-size: 20px;
+}
+a:hover{
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+ul{
+    list-style: none;
+    top: 90px;
+    position: absolute;
+    width: 220px;
+}
+li{
+    width: 250px;
+    margin-left: -40px;
+    
+}
+input[type="checkbox"]{
+    display: none;
+}
+input[type="checkbox"]:checked ~ nav{
+    transform: translateX(190px);
+}
+nav{
+    background-color: red;
+    width: 260px;
+    margin-left: -190px;
+    height: 968px;
+}
+label{
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+#img_menu{
+    margin-left: 5px;
+}
+.img_menus{
+    margin-right: -3px;
+    float: right;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+.img_menus1{
+    margin-right: -3px;
+    float: right;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#but_login_menu{
+    margin-top: 30px;
+    margin-left: 60px;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+#but_login_menu:hover{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    transform: scale(1.2);
+}
+#a_but_login{
+    background-color: red;
+}
+#logo{
+    float: left;
+    height: 120px;
+    position: absolute;
+    margin-left: 1780px;
+    margin-top: -950px;
+}
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* Fim MENU */
+
+/* Começo PAG */
+.conteudo{
+    /* border: solid black; */
+    width: 100%;
+    height: 930px;
+    margin-top: -950px;
+    float:left;
+}
+.nome{
+    /* border: solid blue; */
+    height: 50px;
+}
+#but_sair{
+    float: right;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color:black;
+    font-size: 15px;
+    border: none;
+    border-radius: 15px;
+    margin-top: -65px;
+}
+#but_sair:hover{
+    transform: scale(1.1);
+    background-color: red;
+}
+.jogo{
+    border: solid black;
+    height: 100px;
+    text-align: center;
+    margin-top: 10px;
+}
+#span_1{
+    font-size: 25px;
+}
+#but_acompanhar{
+    width: 130px;
+    height: 30px;
+    color: white;
+    background-color:red;
+    font-size: 15px;
+    border: none;
+    border-radius: 15px;
+    margin-top: -65px;
+}
+#but_acompanhar:hover{
+    transform: scale(1.1);
+    background-color: black;
+}
+#span_2{
+    font-size: 20px;
+}
+/* Cartão giratorio 1 */
+.cartao {
+  height: 200px;
+  width: 200px;
+  perspective: 1000px;
+  margin-left: 100px;
+  margin-top: 20px;
+  float:left;
+}
+.cartao-container {
+    position: relative;
+    height: 100%;
+}
+.cartao-container {
+    position: relative;
+    height: 100%;
+    transition: transform .4s;
+    transform-style: preserve-3d;
+}
+.cartao:hover .cartao-container {
+    transform: rotateY(180deg);
+}
+.cartao-front, .cartao-back {
+    position: absolute;
+    width: 100%;
+    backface-visibility: hidden;
+    z-index: 1;
+}
+.cartao-front {
+    width: 300px;
+    height: 700px;
+    border-radius: 15px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/0d/Rigoni_Zenit.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.cartao-back {
+    transform: rotateY(180deg);
+    background: rgba(255, 0, 0, 0.753);
+    width: 300px;
+    height: 700px;
+    border-radius: 15px;
+}
+.frases{
+    background-color: black;
+    margin-top: 550px;
+    opacity: 0.8;
+}
+#span_1{
+    color: white;
+    font-size: 30px;
+}
+.frases1{
+    margin-left: 10px;
+    margin-top: 80px;
+    font-size: 20px;
+    color: white;
+}
+.span_2{
+    font-size: 35px;
+}
+/* Cartão giratorio 2 */
+.cartao1 {
+    height: 200px;
+    width: 200px;
+    perspective: 1000px;
+    margin-left: 750px;
+    margin-top: 20px;
+    float: left;
+    margin-top: -743px ;
+  }
+  .cartao-container1 {
+      position: relative;
+      height: 100%;
+  }
+  .cartao-container1 {
+      position: relative;
+      height: 100%;
+      transition: transform .4s;
+      transform-style: preserve-3d;
+  }
+  .cartao1:hover .cartao-container1 {
+      transform: rotateY(180deg);
+  }
+  .cartao-front1, .cartao-back1 {
+      position: absolute;
+      width: 100%;
+      backface-visibility: hidden;
+      z-index: 1;
+  }
+  .cartao-front1 {
+      width: 300px;
+      height: 700px;
+      border-radius: 15px;
+      background-image: url(https://i.pinimg.com/originals/df/9f/e3/df9fe3072a3691f2f7d9dae16625859e.jpg);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+  }
+  .cartao-back1 {
+      transform: rotateY(180deg);
+      background: rgba(255, 0, 0, 0.753);
+      width: 300px;
+      height: 700px;
+      border-radius: 15px;
+  }
+  .frases{
+      background-color: black;
+      margin-top: 550px;
+      opacity: 0.8;
+  }
+  #span_1{
+      color: white;
+      font-size: 30px;
+  }
+  .frases1{
+      margin-left: 10px;
+      margin-top: 80px;
+      font-size: 20px;
+      color: white;
+  }
+/* Terceiro card */
+.cartao2 {
+    height: 200px;
+    width: 200px;
+    perspective: 1000px;
+    margin-left: 1250px;
+    margin-top: 20px;
+    float: left;
+    margin-top: -743px ;
+  }
+  .cartao-container2 {
+      position: relative;
+      height: 100%;
+  }
+  .cartao-container2 {
+      position: relative;
+      height: 100%;
+      transition: transform .4s;
+      transform-style: preserve-3d;
+  }
+  .cartao2:hover .cartao-container2 {
+      transform: rotateY(180deg);
+  }
+  .cartao-front2, .cartao-back2 {
+      position: absolute;
+      width: 100%;
+      backface-visibility: hidden;
+      z-index: 1;
+  }
+  .cartao-front2 {
+      width: 300px;
+      height: 700px;
+      border-radius: 15px;
+      background-image: url(https://pbs.twimg.com/media/E2L1gmVWYAUsHqW?format=jpg&name=large);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+  }
+  .cartao-back2 {
+      transform: rotateY(180deg);
+      background: rgba(255, 0, 0, 0.753);
+      width: 300px;
+      height: 700px;
+      border-radius: 15px;
+  }
+  .frases{
+      background-color: black;
+      margin-top: 550px;
+      opacity: 0.8;
+  }
+  #span_1{
+      color: white;
+      font-size: 30px;
+  }
+.frases1{
+      margin-left: 10px;
+      margin-top: 80px;
+      font-size: 20px;
+      color: white;
+}
+/* Fim PAG */
+
+/* Inicio do Footer */
+footer{
+    width: 100%;
+    background-color: black;
+    height: 400px;
+}
+.inputs{
+    width: 500px;
+    height: 290px;
+    
+}
+#h3_inp{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+#tel{
+    background-color: white;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;
+    float: left;
+}
+#email{
+    background-color: white;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin-left: -50px;
+    margin-top: 150px;
+    text-align: center;
+    float: left;
+}
+#img_end{
+    margin-top: 8px;
+}
+#inp1{
+    float: right;
+    margin-top: 60px;
+    margin-right: 200px;
+    color: white;
+    width: 150px;
+}
+#inp2{
+    float: right;
+    margin-top: 90px;
+    margin-right: 260px;
+    color: white;
+    width: 100px;
+}
+.final{
+    color: white;
+    border-top: solid white;
+    margin-top: 50px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.rede{
+    float: right;
+}
+.grupo{
+    width: 800px;
+    height: 300px;
+    float: right;
+    margin-top: -260px;
+}
+#h2_grupo{
+    color: white;
+    text-align: center;
+}
+#inp_grupo{
+    padding-top: 10px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    float: left;
+    width: 400px;
+    border: none;
+}
+#but_grupo{
+    width: 100px;
+    height: 30px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 150px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+#but_grupo:hover{
+    background-color: red;
+    color: white;
+    transform: scale(1.1);
+}
+#h5_grupo{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
