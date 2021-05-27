@@ -2,9 +2,10 @@ body{
     margin: 0;
     padding: 0;
     font-family: arial;
-    background-image: url(https://pbs.twimg.com/media/E2HTXS8XEAEToNx?format=jpg&name=4096x4096); 
+    background-image: url(https://pbs.twimg.com/media/E2VXU0IX0AQ-btx?format=jpg&name=large); 
     background-repeat: no-repeat;
     background-size: 100% 970px;   
+    /* background-color: rgba(255, 0, 0, 0.144); */
 }
 /* Começo do MENU */
  a{
@@ -208,14 +209,14 @@ label{
 }
 .prox{
     float: right;
-    width: 815.5px;
+    width: 652.5px;
     height: 383px;
-    margin-top: 50px;
+    margin-top: -456px;
     margin-right: 100px;
 }
 #id_prox{
     float: right;
-    margin-right: 580px;
+    margin-right: 430px;
 }
 .bannerjogo{
     width: 100%;

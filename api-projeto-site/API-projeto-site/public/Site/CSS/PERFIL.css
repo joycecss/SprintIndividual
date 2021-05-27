@@ -2,6 +2,9 @@ body{
     margin: 0;
     padding: 0;
     font-family: arial;
+    background-image: url(https://pbs.twimg.com/media/E2QcO7-WYAgMDOC?format=jpg&name=large);
+    background-repeat: no-repeat;
+    background-size: 100% 970px;
 }
 /* Começo do MENU */
  a{
@@ -108,7 +111,7 @@ label{
     width: 100px;
     height: 30px;
     color: white;
-    background-color:black;
+    background-color: black;
     font-size: 15px;
     border: none;
     border-radius: 15px;
@@ -120,9 +123,11 @@ label{
 }
 .jogo{
     border: solid black;
-    height: 100px;
+    height: 175px;
     text-align: center;
     margin-top: 10px;
+    background-color: white;
+    border-radius: 15px;
 }
 #span_1{
     font-size: 25px;
@@ -330,6 +335,7 @@ footer{
     width: 100%;
     background-color: black;
     height: 400px;
+    margin-top: -70px;
 }
 .inputs{
     width: 500px;
