@@ -1,0 +1,390 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    /* background-color: whitesmoke; */
+    background-image: url("https://spfc-gs.s3.amazonaws.com/prod/assets/images/bg_header+1.png");
+}
+/* Começo do MENU */
+ a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px 5px;
+    font-size: 20px;
+}
+a:hover{
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+ul{
+    list-style: none;
+    top: 90px;
+    position: absolute;
+    width: 100%;
+}
+li{
+    width: 250px;
+    margin-left: -40px;
+    
+}
+input[type="checkbox"]{
+    display: none;
+}
+input[type="checkbox"]:checked ~ nav{
+    transform: translateX(190px);
+}
+nav{
+    background-color: #A11116;
+    width: 260px;
+    margin-left: -190px;
+    height: 968px;
+}
+label{
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+#img_menu{
+    margin-left: 5px;
+}
+.img_menus{
+    margin-right: -3px;
+    float: right;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+.img_menus1{
+    margin-right: -3px;
+    float: right;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#but_login_menu{
+    margin-top: 30px;
+    margin-left: 80px;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+#but_login_menu:hover{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    transform: scale(1.2);
+}
+#a_but_login{
+    background-color:#A11116;
+}
+#logo{
+    float: left;
+    height: 120px;
+    position: absolute;
+    margin-left: 1780px;
+    margin-top: -950px;
+}
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* Fim MENU */
+
+/* Começo PAG */
+.containerpag{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -970px;
+    width: 1800px;
+    height: 1899px;
+}
+.preto{
+    margin-left: 50px;
+    width: 10px;
+    height: 97%;
+    background-color: black;
+    float: left;
+}
+.vermelho{
+    margin-right: 1700px;
+    width: 10px;
+    height: 97%;
+    background-color: red;
+    float: right;
+}
+.valores{
+    width: 1500px;
+    height: 999px;
+    /* border:solid red; */
+    margin-left: 100px;
+    /* text-align: center; */
+}
+#span_titulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin-left: -150px;
+}
+.leal{
+    text-align: center;
+    /* border: solid blue; */
+    margin-top: 150px;
+}
+.resp{
+    text-align: center;
+    /* border: solid blue; */
+    margin-top: 100px;
+}
+.compre{
+    text-align: center;
+    /* border: solid blue; */
+    margin-top: 100px;
+}
+.spfc{
+    float: left;
+    width: 685px;
+    height: 899px;
+    margin-top: 90px;
+    /* border: solid blue; */
+}
+.img{
+    float: right;
+    width: 100px;
+    height: 899px;
+    margin-right: 702px;
+}
+.eu{
+    float: right;
+    width: 700px;
+    height: 909px;
+    margin-top: -909px;
+    /* border: solid red; */
+}
+.spfcleal{
+    text-align: center;
+    /* border: solid red; */
+    margin-top: 200px;
+}
+.spfcresp{
+    text-align: center;
+    /* border: solid red; */
+    margin-top: 200px;
+}
+.spfcompre{
+    text-align: center;
+    /* border: solid red; */
+    margin-top: 200px;
+}
+.euleal{
+    text-align: center;
+    /* border: solid red; */
+    margin-top: 220px;
+}
+.euresp{
+    text-align: center;
+    /* border: solid red; */
+    margin-top: 200px;
+}
+.eucompre{
+    text-align: center;
+    /* border: solid red; */
+    margin-top: 200px;
+}
+.boxjogo{
+    /* border: solid rebeccapurple; */
+    height: 120px;
+    width: 800px;
+    margin-left: 400px;
+    /* margin-top: 100px; */
+}
+.time-casa{
+    /* border: solid red; */
+    height: 100px;
+    width: 100px;
+    margin-top: -50px;
+    float: left;
+    margin-left: 20px;
+}
+#nome_casa{
+    font-size: 25px;
+    /* border: solid black; */
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 130px;
+}
+.placar{
+    float: left;
+    margin-left: 230px;
+    margin-top: -50px;
+}
+#nome_fora{
+    font-size: 25px;
+    /* border: solid black; */
+    margin-right: 240px;
+    margin-top: -33px;
+    width: 130px;
+    float: right;
+}
+.time-fora{
+    /* border: solid red; */
+    height: 100px;
+    width: 100px;
+    margin-top: -80px;
+    float: right;
+    margin-right: 60px;
+}
+.tt_jogo{
+    /* border: solid forestgreen; */
+    width: 630px;
+    height: 50px;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.tt_jogo1{
+    /* border: solid forestgreen; */
+    width: 230px;
+    height: 50px;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.cartola{
+    /* border: solid navy; */
+    width: 800px;
+    height: 800px;
+    /* margin-top: 200px; */
+    margin-left: 50px;
+}
+.jogador1{
+    width: 50%;
+    /* border: solid olive; */
+    height: 60px;
+    margin-left: 25%;
+}
+.jogador2{
+    width: 50%;
+    /* border: solid olive; */
+    height: 60px;
+    margin-left: 25%;
+}
+.jogador3{
+    width: 50%;
+    /* border: solid olive; */
+    height: 60px;
+    margin-left: 25%;
+}
+.jogador4{
+    width: 50%;
+    /* border: solid olive; */
+    height: 60px;
+    margin-left: 25%;
+}
+.jogador5{
+    width: 50%;
+    /* border: solid olive; */
+    height: 60px;
+    margin-left: 25%;
+}
+.jogador6{
+    width: 50%;
+    /* border: solid olive; */
+    height: 60px;
+    margin-left: 25%;
+}
+.jogador7{
+    width: 50%;
+    /* border: solid olive; */
+    height: 60px;
+    margin-left: 25%;
+}
+.jogador8{
+    width: 50%;
+    /* border: solid olive; */
+    height: 60px;
+    margin-left: 25%;
+}
+.jogador9{
+    width: 50%;
+    /* border: solid olive; */
+    height: 60px;
+    margin-left: 25%;
+}
+.jogador10{
+    width: 50%;
+    /* border: solid olive; */
+    height: 60px;
+    margin-left: 25%;
+}
+.jogador11{
+    width: 50%;
+    /* border: solid olive; */
+    height: 60px;
+    margin-left: 25%;
+}
+.jogador12{
+    width: 50%;
+    /* border: solid olive; */
+    height: 60px;
+    margin-left: 25%;
+}
+/* Fim PAG */
+
+/* Inicio do Footer */
+footer{
+    width: 100%;
+    background-image: url(https\:\/\/spfc-gs\.s3\.amazonaws\.com\/prod\/assets\/images\/bg-footer\.png);
+    height: 400px;
+}
+.ttinp{
+    width: 480px;
+    height: 30px;
+    margin-left: 450px;
+    margin-top: 80px;
+}
+.input{
+    width: 800px;
+    height: 80px;
+    margin-left: 350px;
+}
+#inp_env{
+    margin-top: 15px;
+    width: 400px;
+    height: 50px;
+    margin-left: 130px;
+    /* color: white; */
+    border: 0.5px solid white;
+}
+#but_env{
+    height: 52px;
+    width: 100px;
+    border: none;
+    background-color: red;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+}
+.redes{
+    margin-left: 350px;
+    height: 50px;
+    width: 320px;
+    margin-left: 600px;
+    margin-top: 15px;
+}
+.pags{
+    height: 20px;
+    width: 800px;
+    margin-left: 360px;
+    margin-top: 15px;
+    /* margin-top: 500px; */
+}
+#pag_footer{
+    font-size: 15px;
+    color: white;
+    font-weight: lighter;
+    margin-left: 80px;
+}
+.rodape{
+    margin-top: 15px;
+    margin-left: 530px;
+}

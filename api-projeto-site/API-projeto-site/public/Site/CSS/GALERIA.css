@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    background-image: url(https://passaportefc.com/wp-content/uploads/2020/04/38addef9-eb74-400e-933e-40c39f273d5c.jpg);
+}
+/* Começo do MENU */
+ a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px 5px;
+    font-size: 20px;
+}
+a:hover{
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+ul{
+    list-style: none;
+    top: 90px;
+    position: absolute;
+    width: 100%;
+}
+li{
+    width: 250px;
+    margin-left: -40px;
+    
+}
+input[type="checkbox"]{
+    display: none;
+}
+input[type="checkbox"]:checked ~ nav{
+    transform: translateX(190px);
+}
+nav{
+    background-color: #A11116;
+    width: 260px;
+    margin-left: -190px;
+    height: 968px;
+}
+label{
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+#img_menu{
+    margin-left: 5px;
+}
+.img_menus{
+    margin-right: -3px;
+    float: right;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+.img_menus1{
+    margin-right: -3px;
+    float: right;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#but_login_menu{
+    margin-top: 30px;
+    margin-left: 80px;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+#but_login_menu:hover{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    transform: scale(1.2);
+}
+#a_but_login{
+    background-color: #A11116;
+}
+#logo{
+    float: left;
+    height: 120px;
+    position: absolute;
+    margin-left: 1780px;
+    margin-top: -950px;
+}
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* Fim MENU */
+
+/* Começo PAG */
+.foto1{
+    margin-top: -800px;
+    float: left;
+    margin-left: -50px;
+}
+.foto2{
+    margin-top: -800px;
+    float: left;
+    margin-left: 250px;
+}
+.foto3{
+    margin-top: -800px;
+    float: left;
+    margin-left: 550px;
+}
+.foto4{
+    margin-top: -800px;
+    float: left;
+    margin-left: 850px;
+}
+.foto5{
+    margin-top: -800px;
+    float: left;
+    margin-left: 1150px;
+}
+.foto6{
+    margin-top: -800px;
+    float: left;
+    margin-left: 1450px;
+}
+.foto7{
+    margin-top: -450px;
+    float: left;
+    margin-left: -50px;
+}
+.foto8{
+    margin-top: -450px;
+    float: left;
+    margin-left: 250px;
+}
+.foto9{
+    margin-top: -450px;
+    float: left;
+    margin-left: 550px;
+}
+.foto10{
+    margin-top: -450px;
+    float: left;
+    margin-left: 850px;
+}
+.foto11{
+    margin-top: -450px;
+    float: left;
+    margin-left: 1150px;
+}
+.foto12{
+    margin-top: -450px;
+    float: left;
+    margin-left: 1450px;
+}
+/* Fim PAG */
+
+/* Inicio do Footer */
+footer{
+    width: 100%;
+    background-image: url(https\:\/\/spfc-gs\.s3\.amazonaws\.com\/prod\/assets\/images\/bg-footer\.png);
+    height: 400px;
+}
+.ttinp{
+    width: 480px;
+    height: 30px;
+    margin-left: 450px;
+    margin-top: 80px;
+}
+.input{
+    width: 800px;
+    height: 80px;
+    margin-left: 350px;
+}
+#inp_env{
+    margin-top: 15px;
+    width: 400px;
+    height: 50px;
+    margin-left: 130px;
+    /* color: white; */
+    border: 0.5px solid white;
+}
+#but_env{
+    height: 52px;
+    width: 100px;
+    border: none;
+    background-color: red;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+}
+.redes{
+    margin-left: 350px;
+    height: 50px;
+    width: 320px;
+    margin-left: 600px;
+    margin-top: 15px;
+}
+.pags{
+    height: 20px;
+    width: 800px;
+    margin-left: 360px;
+    margin-top: 15px;
+    /* margin-top: 500px; */
+}
+#pag_footer{
+    font-size: 15px;
+    color: white;
+    font-weight: lighter;
+    margin-left: 80px;
+}
+.rodape{
+    margin-top: 15px;
+    margin-left: 530px;
+}

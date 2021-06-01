@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    background-image: url(https://assets-mantosdofutebol.sfo2.digitaloceanspaces.com/wp-content/uploads/2020/07/Camisa-Icon-do-S%C3%A3o-Paulo-FC-2020-Adidas-a.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/* Começo do MENU */
+ a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px 5px;
+    font-size: 20px;
+}
+a:hover{
+    background-color: white;
+    color: black;
+}
+ul{
+    list-style: none;
+    top: 90px;
+    position: absolute;
+    width: 220px;
+}
+li{
+    width: 220px;
+    margin-left: -15px;
+    
+}
+input[type="checkbox"]{
+    display: none;
+}
+input[type="checkbox"]:checked ~ nav{
+    transform: translateX(190px);
+}
+nav{
+    background-color: red;
+    width: 260px;
+    margin-left: -190px;
+    height: 968px;
+}
+label{
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+#img_menu{
+    margin-left: 5px;
+}
+.img_menus{
+    margin-right: -3px;
+    float: right;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+.img_menus1{
+    margin-right: -3px;
+    float: right;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#but_login_menu{
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+#but_login_menu:hover{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    transform: scale(1.2);
+}
+#a_but_login{
+    background-color: red;
+}
+#logo{
+    float: left;
+    height: 120px;
+    position: absolute;
+    margin-left: 1780px;
+    margin-top: -950px;
+}
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* Fim MENU */
+/* Começo PAG */
+.forms{
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    margin-top: -600px;
+    margin-left: 500px;
+    text-align: center;
+    border-radius: 15px;
+}
+#login{
+    color: red;
+    font-size: 20px;
+}
+#but_env{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 120px;
+}
+/* Fim de PAG */

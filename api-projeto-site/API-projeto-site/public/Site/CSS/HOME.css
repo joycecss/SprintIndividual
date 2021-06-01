@@ -1,0 +1,346 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    background-image: url(https://pbs.twimg.com/media/E2VXU0IX0AQ-btx?format=jpg&name=large); 
+    background-repeat: no-repeat;
+    background-size: 100% 970px;   
+    /* background-color: rgba(255, 0, 0, 0.144); */
+        
+}
+/* Começo do MENU */
+ a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px 5px;
+    font-size: 20px;
+}
+a:hover{
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+ul{
+    list-style: none;
+    top: 90px;
+    position: absolute;
+    width: 220px;
+}
+li{
+    width: 250px;
+    margin-left: -40px;
+    
+}
+input[type="checkbox"]{
+    display: none;
+}
+input[type="checkbox"]:checked ~ nav{
+    transform: translateX(190px);
+}
+nav{
+    background-color: #A11116;
+    width: 260px;
+    margin-left: -190px;
+    height: 968px;
+}
+label{
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+#img_menu{
+    margin-left: 5px;
+}
+.img_menus{
+    margin-right: -3px;
+    float: right;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+.img_menus1{
+    margin-right: -3px;
+    float: right;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#but_login_menu{
+    margin-top: 30px;
+    margin-left: 80px;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+#but_login_menu:hover{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    transform: scale(1.2);
+}
+#a_but_login{
+    background-color: #A11116;
+}
+#logo{
+    float: left;
+    height: 120px;
+    position: absolute;
+    margin-left: 1780px;
+    margin-top: -950px;
+}
+/* Começo da HOME */
+.parte1{
+    width: 1300px;
+    height: 500px;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0)), color-stop(50%, rgba(0, 0, 0, 0.973)));
+    margin-top: -750px;
+    margin-top: -750px;
+    margin-left: 350px;
+}
+#diahora{
+    font-size: 20px;
+    color: white;
+    margin-left: 39%;
+    padding-top: 100px;
+}
+#liga{
+    font-size: 50px;
+    color: white;
+    margin-left: 22%;
+    padding-top: 15px; 
+}
+.dia{
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 80px;
+    height: 80px;
+    margin-left: 400px;
+}
+#span_dia{
+    color: white;
+    font-size: 70px;
+}
+.hora{
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 80px;
+    height: 80px;
+    margin-left: 550px;
+    margin-top: -82px;
+}
+#span_hora{
+    color: white;
+    font-size: 70px;
+}
+.minuto{
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 80px;
+    height: 80px;
+    margin-left: 700px;
+    margin-top: -84px;
+}
+#span_minuto{
+    color: white;
+    font-size: 70px;
+}
+.seg{
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 80px;
+    height: 80px;
+    margin-left: 850px;
+    margin-top: -86px;
+}
+#span_seg{
+    color: white;
+    font-size: 70px;
+}
+#but_comprar{
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    margin-top: 25px;
+    margin-left: 580px;
+    border: none;
+}
+#but_comprar:hover{
+    transform: scale(1.1);
+}
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.faixa1{
+    width: 100%;
+    height: 500px;
+    margin-top: 300px;
+}
+.ultimo{
+    width: 500px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 100px;
+    float: left;
+}
+#id_ultimo{
+    float: right;
+    margin-right: 200px;
+}
+.result{
+    width: 100%;
+    height: 312px;
+    background-color: black;
+}
+.result1{
+    width: 100%;
+    height: 39px;
+    background-color: rgba(128, 128, 128, 0.63);
+}
+#tit_result{
+    color: white;
+    font-size: 15px;
+}
+#span_jogo{
+    color: white;
+    font-size: 17px;
+    margin-left: 120px;
+}
+.prox{
+    float: right;
+    width: 652.5px;
+    height: 383px;
+    margin-top: -456px;
+    margin-right: 100px;
+}
+#id_prox{
+    float: right;
+    margin-right: 430px;
+}
+.bannerjogo{
+    width: 100%;
+    height: 315px;
+    margin-top: 10px;
+}
+.faixa2{
+    /* background-color: rgb(43, 41, 41); */
+    background-image: url(https://www.dwrk.it/wp-content/uploads/2019/06/concepts_SPFC_0021_Layer-Comp-22.jpg);
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+#artilheiros{
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 600px;
+}
+#artilheiro1{
+    float: left;
+    margin-left: 100px;
+    width: 250px;
+    height: 400px;
+    margin-top: 50px;
+}
+#artilheiro2{
+    float: left;
+    margin-left: 100px;
+    width: 250px;
+    height: 400px;
+    margin-top: 50px;
+}
+#artilheiro3{
+    float: left;
+    margin-left: 100px;
+    width: 250px;
+    height: 400px;
+    margin-top: 50px;
+}
+#artilheiro4{
+    float: left;
+    margin-left: 100px;
+    width: 250px;
+    height: 400px;
+    margin-top: 50px;
+}
+#h2_art{
+    float: right;
+    color: white;
+    margin-right: 1250px;
+    margin-top: 50px;
+}
+#img_art{
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+#h2_gols{
+    color: white;
+    text-align: center;
+    background-color: red;
+    border-radius: 30px;
+    border: solid rgba(255, 217, 0, 0.699);
+}
+/* Inicio do Footer */
+footer{
+    width: 100%;
+    background-image: url(https\:\/\/spfc-gs\.s3\.amazonaws\.com\/prod\/assets\/images\/bg-footer\.png);
+    height: 400px;
+}
+.ttinp{
+    width: 480px;
+    height: 30px;
+    margin-left: 450px;
+    margin-top: 80px;
+}
+.input{
+    width: 800px;
+    height: 80px;
+    margin-left: 350px;
+}
+#inp_env{
+    margin-top: 15px;
+    width: 400px;
+    height: 50px;
+    margin-left: 130px;
+    /* color: white; */
+    border: 0.5px solid white;
+}
+#but_env{
+    height: 52px;
+    width: 100px;
+    border: none;
+    background-color: red;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+}
+.redes{
+    margin-left: 350px;
+    height: 50px;
+    width: 320px;
+    margin-left: 600px;
+    margin-top: 15px;
+}
+.pags{
+    height: 20px;
+    width: 800px;
+    margin-left: 360px;
+    margin-top: 15px;
+    /* margin-top: 500px; */
+}
+#pag_footer{
+    font-size: 15px;
+    color: white;
+    font-weight: lighter;
+    margin-left: 80px;
+}
+.rodape{
+    margin-top: 15px;
+    margin-left: 530px;
+}
