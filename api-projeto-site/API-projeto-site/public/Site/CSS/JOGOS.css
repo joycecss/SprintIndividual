@@ -125,9 +125,34 @@ label{
     height: 200px;
 }
 .fala{
-    margin-left: 150px;
+    margin-left: 80px;
     margin-top: 50px;
     float: left;
+    /* border: solid rebeccapurple; */
+    width: 780px;
+}
+.tempo{
+    width: 80px;
+    height: 80px;
+    /* border: solid aqua; */
+    text-align: center;
+    float: left;
+}
+.etapa{
+    width: 80px;
+    height: 20px;
+    border-top: 0.5px solid gray;
+    /* border-bottom: 0.5px solid gray; */
+}
+.lances{
+    width: 680px;
+    height: 80px;
+    /* border-bottom: 0.5px solid gray; */
+    float: right;
+    /* text-align: start; */
+}
+#lances{
+    font-size: 15px;
 }
 .foto{
     float: right;
@@ -154,7 +179,7 @@ label{
 }
 #img_times2{
     float: right;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-right: 300px;
 }
 .valoplaca{
@@ -264,7 +289,7 @@ td{
 /* Inicio do Footer */
 footer{
     width: 100%;
-    background-color: black;
+    background-image: url(https\:\/\/spfc-gs\.s3\.amazonaws\.com\/prod\/assets\/images\/bg-footer\.png);
     height: 400px;
 }
 .inputs{

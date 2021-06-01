@@ -114,103 +114,58 @@ label{
 /* Inicio do Footer */
 footer{
     width: 100%;
-    background-color: black;
+    background-image: url(https\:\/\/spfc-gs\.s3\.amazonaws\.com\/prod\/assets\/images\/bg-footer\.png);
     height: 400px;
 }
-.inputs{
-    width: 500px;
-    height: 290px;
-    
-}
-#h3_inp{
-    margin-top: 50px;
-    color: white;
-    text-align: center;
-    padding-top: 20px;
-}
-#tel{
-    background-color: white;
-    border-radius: 50px;
-    width: 50px;
-    height: 50px;
-    margin-left: 50px;
-    margin-top: 50px;
-    text-align: center;
-    float: left;
-}
-#email{
-    background-color: white;
-    border-radius: 50px;
-    width: 50px;
-    height: 50px;
-    margin-left: -50px;
-    margin-top: 150px;
-    text-align: center;
-    float: left;
-}
-#img_end{
-    margin-top: 8px;
-}
-#inp1{
-    float: right;
-    margin-top: 60px;
-    margin-right: 200px;
-    color: white;
-    width: 150px;
-}
-#inp2{
-    float: right;
-    margin-top: 90px;
-    margin-right: 260px;
-    color: white;
-    width: 100px;
-}
-.final{
-    color: white;
-    border-top: solid white;
-    margin-top: 50px;
-    font-size: 20px;
-    padding-top: 10px;
-}
-.rede{
-    float: right;
-}
-.grupo{
-    width: 800px;
-    height: 300px;
-    float: right;
-    margin-top: -260px;
-}
-#h2_grupo{
-    color: white;
-    text-align: center;
-}
-#inp_grupo{
-    padding-top: 10px;
-    text-align: center;
-    margin-top: 50px;
-    margin-left: 100px;
-    float: left;
-    width: 400px;
-    border: none;
-}
-#but_grupo{
-    width: 100px;
+.ttinp{
+    width: 480px;
     height: 30px;
-    float: right;
-    margin-top: 50px;
-    margin-right: 150px;
-    background-color: white;
-    color: black;
-    border-radius: 10px;
+    margin-left: 450px;
+    margin-top: 80px;
 }
-#but_grupo:hover{
+.input{
+    width: 800px;
+    height: 80px;
+    margin-left: 350px;
+}
+#inp_env{
+    margin-top: 15px;
+    width: 400px;
+    height: 50px;
+    margin-left: 130px;
+    /* color: white; */
+    border: 0.5px solid white;
+}
+#but_env{
+    height: 52px;
+    width: 100px;
+    border: none;
     background-color: red;
+    border-radius: 15px;
     color: white;
-    transform: scale(1.1);
+    font-size: 15px;
 }
-#h5_grupo{
+.redes{
+    margin-left: 350px;
+    height: 50px;
+    width: 320px;
+    margin-left: 600px;
+    margin-top: 15px;
+}
+.pags{
+    height: 20px;
+    width: 800px;
+    margin-left: 360px;
+    margin-top: 15px;
+    /* margin-top: 500px; */
+}
+#pag_footer{
+    font-size: 15px;
     color: white;
-    text-align: center;
-    margin-top: 100px;
+    font-weight: lighter;
+    margin-left: 80px;
+}
+.rodape{
+    margin-top: 15px;
+    margin-left: 530px;
 }
