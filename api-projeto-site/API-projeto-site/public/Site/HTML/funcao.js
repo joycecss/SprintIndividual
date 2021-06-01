@@ -1,5 +1,6 @@
 let login_usuario;
 let nome_usuario;
+let socio_torcedor;
 
 function redirecionar_login() {
     window.location.href = 'login.html';

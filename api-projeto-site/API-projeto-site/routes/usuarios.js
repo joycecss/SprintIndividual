@@ -43,7 +43,10 @@ router.post('/cadastrar', function(req, res, next) {
 	Usuario.create({
 		nome : req.body.nome,
 		login : req.body.login,
-		senha: req.body.senha
+		senha: req.body.senha,
+		sexo: req.body.sexo,
+		dtNascimento: req.body.dtNascimento,
+		socio: req.body.socio
 	}).then(resultado => {
 		console.log(`Registro criado: ${resultado}`)
         res.send(resultado);

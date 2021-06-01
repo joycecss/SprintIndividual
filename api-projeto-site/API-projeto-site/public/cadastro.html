@@ -40,18 +40,18 @@
                     Senha:
                     <input type="password" name="senha" class="input-padrao" placeholder="*****" required minlength="4"> <br><br>
                     <span id="span_form">Data de Nascimento:</span>
-                    <input type="date" id="idade"> <br><br>
+                    <input type="date" id="idade" name="dtNascimento"> <br><br>
                     <span id="span_form">Sexo:</span>
                     <select name="sexo" id="sexo">
-                        <option value="1">Masculino</option>
-                        <option value="2">Feminino</option>
-                        <option value="3">Outros</option>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Feminino">Feminino</option>
+                        <option value="Outros">Outros</option>
                     </select> <br><br>
-                    <span id="span_form">É São Paulino?</span><br>
+                    <span id="span_form">É Socio Torcedor?</span><br>
                         <span id="span_form">Sim</span>
-                        <input type="radio"> <br>
+                        <input type="radio" name="socio" value="Sim" > <br>
                     <span id="span_form">Não</span>
-                    <input type="radio">
+                    <input type="radio" name="socio" value="Não" >
                     <br><br>
                     <input type="submit" id="btn_entrar" value="Cadastrar" class="btn-green">
                 </form>

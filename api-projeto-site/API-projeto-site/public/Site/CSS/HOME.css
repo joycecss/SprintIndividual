@@ -6,6 +6,7 @@ body{
     background-repeat: no-repeat;
     background-size: 100% 970px;   
     /* background-color: rgba(255, 0, 0, 0.144); */
+        
 }
 /* Começo do MENU */
  a{
@@ -38,7 +39,7 @@ input[type="checkbox"]:checked ~ nav{
     transform: translateX(190px);
 }
 nav{
-    background-color: red;
+    background-color: #A11116;
     width: 260px;
     margin-left: -190px;
     height: 968px;
@@ -80,7 +81,7 @@ label{
     transform: scale(1.2);
 }
 #a_but_login{
-    background-color: red;
+    background-color: #A11116;
 }
 #logo{
     float: left;
@@ -107,7 +108,7 @@ label{
 #liga{
     font-size: 50px;
     color: white;
-    margin-left: 17%;
+    margin-left: 22%;
     padding-top: 15px; 
 }
 .dia{
@@ -167,6 +168,9 @@ label{
     margin-top: 25px;
     margin-left: 580px;
     border: none;
+}
+#but_comprar:hover{
+    transform: scale(1.1);
 }
 .container{
     margin-left: 10%;

@@ -27,8 +27,23 @@ module.exports = (sequelize, DataTypes) => {
 			field: 'senha',
 			type: DataTypes.STRING,
 			allowNull: false
-		}
-	}, 
+		}, 
+		socio: {
+			field: 'socio',
+			type: DataTypes.STRING,
+			allowNull: false
+		},
+		dtNascimento: {
+			field: 'dtNascimento',
+			type: DataTypes.DATE,
+			allowNull: false
+		},
+		sexo: {
+			field: 'sexo',
+			type: DataTypes.STRING,
+			allowNull: false
+		},
+	},
 	{
 		tableName: 'usuario', 
 		freezeTableName: true, 

@@ -37,7 +37,7 @@ input[type="checkbox"]:checked ~ nav{
     transform: translateX(190px);
 }
 nav{
-    background-color: red;
+    background-color: #A11116;
     width: 260px;
     margin-left: -190px;
     height: 968px;
@@ -79,7 +79,7 @@ label{
     transform: scale(1.2);
 }
 #a_but_login{
-    background-color: red;
+    background-color: #A11116;
 }
 #logo{
     float: left;
